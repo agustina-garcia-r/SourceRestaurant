@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Jost', sans-serif;
+text-decoration: none;
+}
+
+body {
+margin-left: 50px;
+margin-right: 50px;
+    background-image: url(banner-bg.jpg);
+}
+
+.contenido .navbar {
+    display: flex;
+    align-items: center;
+    padding: 5px; 
+}
+.contenido .navbar img {
+margin-top: 20px;
+margin-left: 40px;
+width: 100px;
+margin-right: auto; 
+cursor: pointer;
+}
+
+.contenido .navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.contenido .navbar li {
+margin-top: 30px;
+margin-left: 40px;
+margin-right: 40px;
+}
+
+
+.contenido .navbar a {
+    color: rgb(88, 68, 68);
+    font-weight: 600;
+}
+
+#botonContact a {
+  
+        color: white;
+        text-decoration: none !important;
+   
+}
+
+button {
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 9px;
+padding-bottom: 9px;
+border-radius: 0 10px ;
+border: none;
+margin-left: 30px;
+background-color: rgb(247, 134, 134);
+font-size: 15px;
+color: white;
+}
+
+
+.imagen {
+    position: absolute;
+    right: 0;
+    margin-right: 106px ; 
+    bottom: 30px;   
+}
+
+.imagen img {
+    width: 450px;
+    height: 450px;
+}
+
+
+
+#botonorder {
+background-color: rgb(247, 134, 134);
+position: absolute;
+bottom: 125px;
+left: 72px;
+}
+
+#botonorder a {
+    color: white;
+    text-decoration: none !important;
+}
+
+button:hover {
+    border-radius: 10px 0;
+}
+
+.textos {
+    margin-left: 50px;
+}
+
+
+.textos h4 {
+font-family: Jost;
+font-weight: 300;
+font-style: italic;
+font-size: 20px;
+color: rgb(238, 72, 108);
+position: absolute;
+top: 160px;
+}
+
+.textos h1 {
+    font-family: Jost;
+    font-weight: 900;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 180px;
+    }
+
+    span{
+        color: rgb(238, 72, 108);
+    }
+
+    .textos h6 {
+        font-family: Jost;
+        font-weight: 200;
+       font-size: medium;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        top: 439px;
+        }
+
+        .redes {
+            position: absolute;
+            bottom: 4px;
+            margin-left: 50px;
+        }
+
+        .redes button {
+         width: 40px;
+         height: 40px;
+         padding: 5px;
+         margin: 5px;
+         cursor: pointer;
+         
+        }
+
+        .redes img {
+            padding: 2px;
+            filter: invert(1);
+        }
+
+        .navlinks:hover {       
+        border-bottom: 1px solid  rgb(238, 72, 108);
+        }
+
